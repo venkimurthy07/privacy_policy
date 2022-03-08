@@ -30,7 +30,9 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 * Key which we send in APIs **u-age-restricted** and value will be 0 or 1
 * API Details which we send **u-age-restricted** parameter
 
+<pre>
 -u-age-restricted= 0 if Age restriction is false or else 1
+
 -u-id-map= GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
 - https://ads.inmobi.com/sdk
 - https://unif-id.ssp.inmobi.com/fetch (Avoid fetching the unifid if age restriction is true)
