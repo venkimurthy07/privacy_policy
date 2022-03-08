@@ -12,6 +12,9 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 * The **UnifId** should also NOT be passed when age restricted flag is True. This is done to take a conservative stance on children privacy. 
 * There is no change for bloom filter implementation, as bloom filter is a probabilistic model and does on-device targeting (not transmitting data to any other partners)
 
+
+<img width="234" alt="familyapp" src="https://user-images.githubusercontent.com/6571244/157170176-4a7e1235-1cb5-43cc-acb3-a113d40388cd.png">
+
 ## SDK Changes
 * Public API 
 <pre>
@@ -27,14 +30,13 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 * Key which we send in APIs **u-age-restricted** and value will be 0 or 1
 * API Details which we send **u-age-restricted** parameter
 
-u-age-restricted= 0 if Age restriction is false or else 1
-u-id-map= GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
+-u-age-restricted= 0 if Age restriction is false or else 1
+-u-id-map= GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
 - https://ads.inmobi.com/sdk
 - https://unif-id.ssp.inmobi.com/fetch (Avoid fetching the unifid if age restriction is true)
 **String USER_HAS_AGE_RESTRICTION = "User has age restriction";**
 - https://unif-id.ssp.inmobi.com/fetch (Avoid sending the unifid if age restriction is true)
 </pre>
 
-<img width="234" alt="familyapp" src="https://user-images.githubusercontent.com/6571244/157170176-4a7e1235-1cb5-43cc-acb3-a113d40388cd.png">
 
         
