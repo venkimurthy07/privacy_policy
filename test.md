@@ -43,8 +43,8 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 - https://unif-id.ssp.inmobi.com/fetch (Avoid sending the unifid if age restriction is true)
 </pre>
 
-
 ## Server Side Changes
+
 This compliance is currently solved on the SDK to adhere with April deadline. The extra parameter discussed above will be passed on to the server along with ad request, which will be ignored as an extra value. Thus, no processing is to be done for this at the server for direct SDK requests.
 
 However, in case of **Audience Bidding flow**:
