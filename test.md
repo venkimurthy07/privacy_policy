@@ -51,6 +51,8 @@ However, in case of **Audience Bidding flow**:
 1.	It is expected that the SDK will provide this flag value while getting the token from getToken() API. 
 2.	In case of oRTB request coming from mediation partner, if the value of “u-age-restricted” signal is TRUE(1) in the token, and the API payload contains device id, DO NOT store or process the device id(GPID or IDFA). Note that in case of request coming from InMobi SDK, SDK will take care of not transmitting device id, but some mediation partner may still pass it.
 3.	Need to support when **"u-id-adt"** is 0 and GPID(Android) is ‘string of zeroes’. This may be possible now when the AD_ID permission is missing. Currently the server drops such requests.
-![image](https://user-images.githubusercontent.com/6571244/157183606-0df3824e-e80d-4e03-8adf-c7200501c34b.png)
+
+<img width="321" alt="server_side" src="https://user-images.githubusercontent.com/6571244/157184342-5e21fb16-a6de-4409-9fc8-d875eb9ac5cb.png">
+
 
 
