@@ -32,7 +32,7 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 ## APIs parameter
 <pre>
  u-age-restricted = 0 if Age restriction is false or else 1
- u-id-map = GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
+ u-id-map = GPID/IDFA if age restriction is false or else UM5(MD5) and O1(SHA1) will be sent to API
 </pre>
 
 ## APIs
@@ -44,4 +44,13 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 </pre>
 
 
-        
+## Server Side Changes
+This compliance is currently solved on the SDK to adhere with April deadline. The extra parameter discussed above will be passed on to the server along with ad request, which will be ignored as an extra value. Thus, no processing is to be done for this at the server for direct SDK requests.
+
+However, in case of **Audience Bidding flow**:
+1.	It is expected that the SDK will provide this flag value while getting the token from getToken() API. 
+2.	In case of oRTB request coming from mediation partner, if the value of “u-age-restricted” signal is TRUE(1) in the token, and the API payload contains device id, DO NOT store or process the device id(GPID or IDFA). Note that in case of request coming from InMobi SDK, SDK will take care of not transmitting device id, but some mediation partner may still pass it.
+3.	Need to support when **"u-id-adt"** is 0 and GPID(Android) is ‘string of zeroes’. This may be possible now when the AD_ID permission is missing. Currently the server drops such requests.
+![image](https://user-images.githubusercontent.com/6571244/157183606-0df3824e-e80d-4e03-8adf-c7200501c34b.png)
+
+
