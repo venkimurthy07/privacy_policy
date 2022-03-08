@@ -31,8 +31,8 @@ Details [link](https://support.google.com/googleplay/android-developer/answer/11
 
 ## APIs parameter
 <pre>
- **u-age-restricted**= 0 if Age restriction is false or else 1
- **u-id-map**= GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
+ u-age-restricted = 0 if Age restriction is false or else 1
+ u-id-map = GPID/IDFa if age restriction is false or else UM5(MD5) and O1(SHA1) 
 </pre>
 
 ## APIs
