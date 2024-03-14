@@ -18,13 +18,14 @@ Link to privacy policy of third party service providers used by the app
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
 
-**We are not collecting any user data from the app**
 
-**Cookies**
+**Categories Of Information We Collect For Business Purposes**
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+As described in the “What information do we collect” section, we collect the categories of personal information listed below. We receive this information from you, your Employer, your device, your use of the Services, third parties (like the other services you have connected to your account), and as otherwise described in this policy. We use and disclose these categories of information for the business purposes described in the Frequently Asked Questions. The categories are:
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+* Geolocation data, including GPS signals.
+  
+We never sell your personal information of our users, but we do provide information to your Employer.  To learn more about how your Employer uses and stores the information we provide them, please contact your Employer.  We also work with partners who provide us with advertising services on our website. To learn more about how these partners collect data and your options for controlling the use of your information for interest-based advertising, please read the applicable sections above.
 
 **Service Providers**
 
