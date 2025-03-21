@@ -78,11 +78,6 @@ We may share Your personal information in the following situations:
 - __With other users:__ when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. 
 - __With Your consent__: We may disclose Your personal information for any other purpose with Your consent.
 
-### AdMob
-
-We may use Google AdMob to serve ads to You when You use the Service. AdMob may collect information about Your Device, such as your unique ID, and data about your interaction with the ads. This helps AdMob serve relevant advertisements and measure the effectiveness of their campaigns.
-
-For more information on how AdMob collects and processes your information, please visit [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ### Retention of Your Personal Data
 
